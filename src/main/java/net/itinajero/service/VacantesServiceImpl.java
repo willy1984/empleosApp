@@ -58,4 +58,10 @@ for (Vacante v : lista) {
 		return null;
 	}
 
+	@Override
+	public void guardar(Vacante vacante) {
+		lista.add(vacante);
+		
+	}
+
 }
